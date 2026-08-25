@@ -9,3 +9,5 @@ data = {
 df = pd.DataFrame(data)
 
 print(df)
+print("\nDefault rate:")
+print(df["default"].mean())
